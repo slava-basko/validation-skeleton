@@ -1,0 +1,34 @@
+{
+  "name": "slava-basko/validation-skeleton",
+  "type": "library",
+  "description": "Validation skeleton",
+  "keywords": [
+    "validation",
+    "validator",
+    "skeleton"
+  ],
+  "authors": [
+    {
+      "name": "Slava Basko",
+      "email": "basko.slava@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "~5.5|~7|~8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4 - 9",
+    "squizlabs/php_codesniffer": ">=3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Basko\\Validation\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Basko\\ValidationTest\\": "tests"
+    }
+  }
+}
